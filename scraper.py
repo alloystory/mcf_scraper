@@ -86,7 +86,7 @@ def main():
 
         curr_page_num += 1 # DO NOT REMOVE
 
-        time.sleep(randint(1, 6) / 2) # Randomly choose delay between [0.5, 3] seconds
+        time.sleep(randint(2, 8)) # Randomly choose delay between [2, 8] seconds
 
     print("Scraping Process Completed")
 
